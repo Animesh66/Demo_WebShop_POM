@@ -25,10 +25,13 @@ class BasePage:
     def type(self, locator, value):
 
         if str(locator).endswith("_XPATH"):
+            self.driver.find_element_by_xpath(configuration_reader("locators", locator)).clear()
             self.driver.find_element_by_xpath(configuration_reader("locators", locator)).send_keys(value)
         elif str(locator).endswith("_CSS"):
+            self.driver.find_element_by_css_selector(configuration_reader("locators", locator)).clear()
             self.driver.find_element_by_css_selector(configuration_reader("locators", locator)).send_keys(value)
         elif str(locator).endswith("_ID"):
+            self.driver.find_element_by_id(configuration_reader("locators", locator)).clear()
             self.driver.find_element_by_id(configuration_reader("locators", locator)).send_keys(value)
 
         log.logger.info("Typing in an element: " + str(locator) + " value entered as : " + str(value))
