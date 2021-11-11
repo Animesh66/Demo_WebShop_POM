@@ -26,5 +26,4 @@ def set_cell_data(path, sheet_name, row_number, column_number, data):
     workbook.save(path)
 
 
-path = "..//excel//testdata.xlsx"
-sheetName = "LoginTest"
+
