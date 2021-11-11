@@ -10,3 +10,5 @@ class LoginPage(BasePage):
         self.type("email_ID", email)
         self.type("password_ID", password)
         self.click("login_button_XPATH")
+        self.verify_title("home_page_title")
+

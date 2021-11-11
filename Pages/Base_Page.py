@@ -63,3 +63,7 @@ class BasePage:
         action.move_to_element(element).perform()
 
         log.logger.info("Moving to an element: " + str(locator))
+
+    def verify_title(self, title):
+        page_title = configuration_reader("page titles", title)
+        assert page_title in self.driver.title, "Title of the page does not match"
