@@ -1,6 +1,5 @@
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.select import Select
-
 from Utilities.utils_logging import Logger
 import logging
 from Utilities.utils_config_reader import configuration_reader
