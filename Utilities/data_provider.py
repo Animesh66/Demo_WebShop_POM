@@ -2,8 +2,8 @@ import openpyxl
 from Utilities.utils_config_reader import configuration_reader
 
 
-def get_data(sheet_name, data_path):
-    workbook = openpyxl.load_workbook(configuration_reader("basic configuration", data_path))
+def get_data(sheet_name):
+    workbook = openpyxl.load_workbook(configuration_reader("basic configuration", "data_path"))
     sheet = workbook[sheet_name]
     total_rows = sheet.max_row
     total_cols = sheet.max_column
