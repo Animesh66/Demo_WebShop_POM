@@ -23,6 +23,7 @@ class BasePage:
         log.logger.info("Clicking on an element: " + str(locator))
 
     def type(self, locator, value):
+
         if str(locator).endswith("_XPATH"):
             self.driver.find_element_by_xpath(configuration_reader("locators", locator)).send_keys(value)
         elif str(locator).endswith("_CSS"):
@@ -33,6 +34,7 @@ class BasePage:
         log.logger.info("Typing in an element: " + str(locator) + " value entered as : " + str(value))
 
     def select(self, locator, value):
+
         global dropdown
         if str(locator).endswith("_XPATH"):
             dropdown = self.driver.find_element_by_xpath(configuration_reader("locators", locator))
