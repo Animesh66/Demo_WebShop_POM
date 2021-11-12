@@ -7,4 +7,5 @@ class HomePage(BasePage):
         super().__init__(driver)
 
     def navigate_product_review(self):
-        pass
+        self.click("catalog_XPATH")
+        self.click("product_review_XPATH")
