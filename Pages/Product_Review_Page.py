@@ -1,5 +1,4 @@
 from Pages.Base_Page import BasePage
-from Pages.Home_Page import HomePage
 
 
 class ProductReviewPage(BasePage):

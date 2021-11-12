@@ -1,6 +1,7 @@
 from Pages.Base_Page import BasePage
 from Pages.Home_Page import HomePage
 
+
 class LoginPage(BasePage):
 
     def __init__(self, driver):
@@ -12,4 +13,3 @@ class LoginPage(BasePage):
         self.click("login_button_XPATH")
         self.verify_title("home_page_title")
         return HomePage(self.driver)
-
