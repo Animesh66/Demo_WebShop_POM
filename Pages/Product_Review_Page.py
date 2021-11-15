@@ -15,6 +15,7 @@ class ProductReviewPage(BasePage):
         self.type("created_to_date_XPATH", created_to_date)
         self.click("search_button_XPATH")
 
+
     def verify_review_date(self):
         pass
 
