@@ -9,8 +9,9 @@ class ProductReviewPage(BasePage):
         super().__init__(driver)
 
     def search_reviews_input(self, created_from_date, created_to_date):
-        time.sleep(2)
+        self.click("created_from_date_XPATH")
         self.type("created_from_date_XPATH", created_from_date)
+        self.click("created_to_date_XPATH")
         self.type("created_to_date_XPATH", created_to_date)
         self.click("search_button_XPATH")
 
