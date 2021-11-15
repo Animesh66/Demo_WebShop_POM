@@ -1,0 +1,12 @@
+[32mINFO    [0m WDM:logger.py:22 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:12 Driver [C:\Users\Animesh_Mukherjee\.wdm\drivers\geckodriver\win64\v0.30.0\geckodriver.exe] found in cache
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:39 Typing in an element: email_ID value entered as : admin@yourstore.com
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:39 Typing in an element: password_ID value entered as : admin
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:25 Clicking on an element: login_button_XPATH
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:25 Clicking on an element: catalog_XPATH
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:25 Clicking on an element: product_review_XPATH
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:25 Clicking on an element: created_from_date_XPATH
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:39 Typing in an element: created_from_date_XPATH value entered as : 1/1/2017
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:25 Clicking on an element: created_to_date_XPATH
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:39 Typing in an element: created_to_date_XPATH value entered as : 11/15/2021
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:25 Clicking on an element: search_button_XPATH

@@ -1,0 +1,7 @@
+[32mINFO    [0m WDM:logger.py:12 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:12 Current google-chrome version is 95.0.4638
+[32mINFO    [0m WDM:logger.py:12 Get LATEST driver version for 95.0.4638
+[32mINFO    [0m WDM:logger.py:12 Driver [C:\Users\Animesh_Mukherjee\.wdm\drivers\chromedriver\win32\95.0.4638.69\chromedriver.exe] found in cache
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:39 Typing in an element: email_ID value entered as : test@email.com
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:39 Typing in an element: password_ID value entered as : admin
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:25 Clicking on an element: login_button_XPATH
