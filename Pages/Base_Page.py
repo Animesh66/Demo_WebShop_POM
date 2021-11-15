@@ -78,12 +78,10 @@ class BasePage:
             wait.until(EC.element_to_be_clickable(element))
             element.click()
         elif str(locator).endswith("_CSS"):
-            element =self.driver.find_element_by_css_selector(configuration_reader("locators", locator))
+            element = self.driver.find_element_by_css_selector(configuration_reader("locators", locator))
             wait.until(EC.element_to_be_clickable(element))
             element.click()
         elif str(locator).endswith("_ID"):
-            element =self.driver.find_element_by_id(configuration_reader("locators", locator))
+            element = self.driver.find_element_by_id(configuration_reader("locators", locator))
             wait.until(EC.element_to_be_clickable(element))
             element.click()
-
-
