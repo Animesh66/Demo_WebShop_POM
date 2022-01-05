@@ -1,5 +1,3 @@
-import time
-
 from Pages.Login_Page import LoginPage
 from Test_Cases.Base_Test import BaseTest
 import pytest
