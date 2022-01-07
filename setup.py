@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
-setup(name='ui_pytest_ecom_example',
+setup(name='Demo_WebShop_POM',
       version='1.0',
-      description='Ecommerce project with collab f/w',
+      description='Framework using selenium with Python',
       author='Animesh Mukherjee',
-      platforms='Web Application',
+      platforms='Windows, Mac , Linux',
       packages=find_packages()
       )
